@@ -1,0 +1,123 @@
+body {font-family:'Edu SA Beginner', cursive;
+box-sizing: border-box;
+font-size:30px;}
+a {cursor: pointer;
+text-decoration: none;}
+#header {background-color:black;
+height:80px;
+width:100%;
+font-size:20px; 
+top:0;
+position: fixed;
+}
+#nav-bar {float:left;}
+.menu
+.menu-item {
+list-style-type: none;
+float:left;
+color:rgb(112, 105, 105);
+padding:10px;
+}
+#log-in {float:right;
+padding-top:10px;
+padding-right:30px;
+color:rgb(112, 105, 105);
+}
+.menu-item:hover {color:white;}
+#log-in a {
+    text-decoration: none;
+    color:rgb(112, 105, 105);
+}
+#log-in a:hover {color:white;}
+#main {height:600px;
+margin-top:80px;
+padding:5px;
+width: 100%;
+clear:both; 
+
+
+
+}
+#left {
+    box-sizing: border-box;
+    width:20%;
+    background-color: rgb(162, 167, 167);
+    height:600px;
+    padding-top:30px;
+    float:left;
+    
+  
+}
+.category {top:0;}
+.category a {text-decoration: none;}
+
+#content {width:60%;
+    height:600px;
+    float:left;
+    padding:20px 5px;
+    box-sizing: border-box;
+}
+#right {width: 20%;
+ background-color:  rgb(162, 167, 167);
+ height:600px;
+ box-sizing: border-box;
+float:right;}
+.ad-btn {border: 1px solid grey;
+border-radius:5px;
+padding:40px;
+width:80%;
+margin-left:20px;
+margin-top:20px;
+}
+.ad-btn a {color:black;
+font-size:30px;}
+#footer {width: 100%;
+clear:both;
+background-color:black;
+height:50px;
+width:100%;
+font-size:20px; 
+color: white;
+text-align: center;
+padding:20px;
+}
+/* For mobile */
+@media only screen and (max-device-width:767px)
+{
+    #header {Width:100%;
+    font-size: 15px;
+    background-color: pink;
+   
+   }
+    #left {
+        width:100%;
+        height: 300px;
+        background-color: peru;
+
+    }
+    #content {
+        width:100%;
+        height:800px;
+        background-color: antiquewhite;
+    }
+    #right {
+        width:100%;
+        background-color: rgb(114, 121, 107);
+        
+    }
+    
+}
+/* For tablet */
+@media only screen and (min-device-width:768px) and (max-device-width:1024px)
+{
+    #left {width:15%;
+    text-align: left;
+   }
+   .category {padding-left:5px;}
+    #content {
+        color:pink;
+    }
+    #right {width:25%;
+    padding-right:0;}
+
+}
